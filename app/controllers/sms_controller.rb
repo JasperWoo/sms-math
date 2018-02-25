@@ -1,5 +1,5 @@
-class WelcomeController < ApplicationController
+class SmsController < ApplicationController
 	def index
-		render json: {amazing: "you reached it"}
-	end
+		render json: {'hi': "you found me"}
+  end
 end
